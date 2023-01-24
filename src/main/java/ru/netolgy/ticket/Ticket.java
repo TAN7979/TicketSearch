@@ -1,12 +1,12 @@
 package ru.netolgy.ticket;
-public class Ticket implements Cloneable <Ticket> {
+public class Ticket implements Cloneable  { //метод
     private int id;
     private String from;
     private String to;
     private int price;
     private int time;
 
-    public Ticket (int id, String from, String to, int price, int time){
+    public Ticket (int id, String from, String to, int price, int time){ //конструктор
         this.id = id;
         this.from = from;
         this.to = to;
